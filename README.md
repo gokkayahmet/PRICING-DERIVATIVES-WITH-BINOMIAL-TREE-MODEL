@@ -30,3 +30,6 @@ $$\triangleright\ The\ option\ value\ at\ a\ given\ node\ is\ then\ discounted\ 
 By working backwards through the tree in this way, we can calculate the fair value of the derivative at the current time, which is the price we would expect to pay to enter into the derivative contract.
 
 Overall, the binomial tree model provides a relatively simple and intuitive way to price derivatives, and can be extended to handle more complex instruments, such as American options, which can be exercised at any point prior to expiration.
+
+
+$$\boldsymbol{aaaa}$$
