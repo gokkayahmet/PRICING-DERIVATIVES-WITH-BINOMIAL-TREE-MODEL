@@ -8,11 +8,11 @@ The key inputs to the binomial tree model are:
 
 $$\boldsymbol{The\ current\ stock\ price (S0)}$$
 
-$$\boldsymbol{The volatility of the stock (σ)}$$
+$$\boldsymbol{The\ volatility\ of\ the\ stock (σ)}$$
 
-$$\boldsymbol{The risk-free interest rate (r)}$$
+$$\boldsymbol{The\ risk-free\ interest\ rate\ (r)}$$
 
-$$\boldsymbol{The time to maturity of the derivative (T)}$$
+$$\boldsymbol{The\ time\ to\ maturity\ of\ the\ derivative\ (T)}$$
 
 
 
