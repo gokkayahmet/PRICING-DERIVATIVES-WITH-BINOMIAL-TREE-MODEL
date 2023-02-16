@@ -6,7 +6,7 @@ The binomial tree model is a commonly used approach for pricing derivatives, suc
 
 The key inputs to the binomial tree model are:
 
-$$\boldsymbol{The current stock price (S0)}$$
+$$\boldsymbol{The\ current\ stock\ price (S0)}$$
 
 $$\boldsymbol{The volatility of the stock (σ)}$$
 
@@ -18,10 +18,10 @@ $$\boldsymbol{The time to maturity of the derivative (T)}$$
 
 Using these inputs, we can construct the binomial tree by calculating the possible stock prices at each node in the tree, using the following formulas:
 
-$$\triangleright \ The \up  \factor\ (u)\ is\ calculated\ as\ e^(σ * sqrt(dt)), \where \dt = T/n $$
-$$\triangleright \ The \down \factor (d)\ is\ calculated\ as\ 1/u $$
-$$\triangleright \ The \probability\ of\ an\ up\ move\ (p)\ is\ calculated\ as\ (e^(r*dt) - d) / (u - d)$$
-$$\triangleright \ The \probability \of \a \down \move \(1-p) \is \simply \1-p $$
+$$\triangleright \ The \ up  \factor\ (u) \ is \ calculated\ as\ e^(σ * sqrt(dt)), \where \dt = T/n $$
+$$\triangleright \ The \ down \ factor (d)\ is \ calculated\ as\ 1/u $$
+$$\triangleright \ The \ probability \ of\ an\ up\ move\ (p)\ is\ calculated\ as\ (e^(r*dt) - d) / (u - d)$$
+$$\triangleright \ The \ probability \of \a \down \move \(1-p) \is \simply \1-p $$
 
 $$\boldsymbol{The \down \factor (d)\ is\ calculated\ as\ 1/u}$$
 
