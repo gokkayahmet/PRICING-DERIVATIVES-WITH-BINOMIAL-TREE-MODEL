@@ -6,13 +6,13 @@ The binomial tree model is a commonly used approach for pricing derivatives, suc
 
 The key inputs to the binomial tree model are:
 
-*$\triangleright$ The current stock price (S0)
-*$\triangleright$ The volatility of the stock (σ)
-$\triangleright$ The risk-free interest rate (r)
-$\triangleright$ The time to maturity of the derivative (T)
-$\triangleright$ The strike price of the derivative (K)
-$\triangleright$ The number of time steps in the tree (n)
-$\triangleright$ Using these inputs, we can construct the binomial tree by calculating the possible stock prices at each node in the tree, using the following formulas:
+$$\triangleright$$ The current stock price (S0)
+$$\triangleright$$ The volatility of the stock (σ)
+$$\triangleright$$ The risk-free interest rate (r)
+$$\triangleright$$ The time to maturity of the derivative (T)
+$$\triangleright$$ The strike price of the derivative (K)
+$$\triangleright$$ The number of time steps in the tree (n)
+$$\triangleright$$ Using these inputs, we can construct the binomial tree by calculating the possible stock prices at each node in the tree, using the following formulas:
 
 The up factor (u) is calculated as e^(σ * sqrt(dt)), where dt = T/n
 The down factor (d) is calculated as 1/u
