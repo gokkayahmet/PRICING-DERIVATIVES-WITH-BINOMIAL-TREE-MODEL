@@ -23,6 +23,10 @@ $$\triangleright \ The \down \factor (d)\ is\ calculated\ as\ 1/u $$
 $$\triangleright \ The \probability\ of\ an\ up\ move\ (p)\ is\ calculated\ as\ (e^(r*dt) - d) / (u - d)$$
 $$\triangleright \ The \probability \of \a \down \move \(1-p) \is \simply \1-p $$
 
+$$\boldsymbol{The \down \factor (d)\ is\ calculated\ as\ 1/u}$$
+
+$$\boldsymbol{The \up  \factor\ (u)\ is\ calculated\ as\ e^(σ * sqrt(dt)), \where \dt = T/n}$$
+
 
 Once we have constructed the binomial tree, we can work backwards through the tree to calculate the fair value of the derivative at each node, using the following formulas:
 
