@@ -14,18 +14,22 @@ $$\boldsymbol{The\ risk-free\ interest\ rate\ (r)}$$
 
 $$\boldsymbol{The\ time\ to\ maturity\ of\ the\ derivative\ (T)}$$
 
+$$\boldsymbol{The strike price of the derivative (K)}$$
+
+$$\boldsymbol{The\ number\ of\ time\ steps\ in\ the\ tree\ (n)}$$
+
+
 
 
 Using these inputs, we can construct the binomial tree by calculating the possible stock prices at each node in the tree, using the following formulas:
 
-$$\triangleright \ The \ up  \factor\ (u) \ is \ calculated\ as\ e^(σ * sqrt(dt)), \where \dt = T/n $$
-$$\triangleright \ The \ down \ factor (d)\ is \ calculated\ as\ 1/u $$
-$$\triangleright \ The \ probability \ of\ an\ up\ move\ (p)\ is\ calculated\ as\ (e^(r*dt) - d) / (u - d)$$
-$$\triangleright \ The \ probability \of \a \down \move \(1-p) \is \simply \1-p $$
+$$\boldsymbol{The\ up\ factor\ (u)\ is\ calculated\ as\ e^(σ * sqrt(dt)),\ where dt = T/n}$$
 
-$$\boldsymbol{The \down \factor (d)\ is\ calculated\ as\ 1/u}$$
+$$\boldsymbol{The\ down\ factor\ (d)\ is\ calculated\ as\ 1/u}$$
 
-$$\boldsymbol{The \up  \factor\ (u)\ is\ calculated\ as\ e^(σ * sqrt(dt)), \where \dt = T/n}$$
+$$\boldsymbol{The\ probability\ of\ an\ up\ move\ (p)\ is\ calculated\ as\ (e^(r*dt) - d) / (u - d)}$$
+
+$$\boldsymbol{The\ probability\ of\ a\ down\ move\ (1-p)\ is\ simply\ 1-p}$$
 
 
 Once we have constructed the binomial tree, we can work backwards through the tree to calculate the fair value of the derivative at each node, using the following formulas:
